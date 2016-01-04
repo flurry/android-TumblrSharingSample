@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~  Copyright 2015 Yahoo Inc.
+  ~  Licensed under the terms of the zLib license. Please see LICENSE file for terms.
+  -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1.0">
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/image_horizontal_margin"
+            android:layout_marginStart="@dimen/image_horizontal_margin"
+            android:layout_gravity="left"
+            android:layout_weight="0.15"
+            android:text=""
+            android:textSize="15sp"/>
+
+        <ImageView
+            android:id="@+id/tumblr_icon"
+            android:contentDescription="@string/tumblr_image_desc"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="@dimen/tumblr_image_margin"
+            android:layout_marginRight="@dimen/tumblr_image_margin"
+            android:layout_marginEnd="@dimen/tumblr_image_margin"
+            android:layout_marginBottom="@dimen/tumblr_image_margin"
+            android:layout_gravity="end"
+            android:gravity="center"
+            android:layout_weight="0.85"
+            android:adjustViewBounds="true"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/detail_page_photo"
+        android:contentDescription="@string/image_desc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitCenter"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true" />
+
+</LinearLayout>

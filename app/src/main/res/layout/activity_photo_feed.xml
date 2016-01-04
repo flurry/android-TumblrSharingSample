@@ -1,0 +1,14 @@
+<!--
+  ~  Copyright 2015 Yahoo Inc.
+  ~  Licensed under the terms of the zLib license. Please see LICENSE file for terms.
+  -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/photoGrid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</FrameLayout>
