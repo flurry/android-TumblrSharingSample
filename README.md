@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/flurry/android-TumblrSharingSample.svg?branch=master)](https://travis-ci.org/flurry/android-TumblrSharingSample)
+
 # Flurry Tumblr In-App Sharing Sample App - Android
 
 This project showcases how Tumblr Sharing can be integrated into your Android App.  This is a simple Nearby Photos app which uses the user’s location to display a feed of public Flickr photos that have been taken in the same area. On clicking on a photo, it will show the user a detailed view of the photo. Here on clicking on the Tumblr icon, you can share the Flickr photo to your Tumblr feed.
